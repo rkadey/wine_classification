@@ -6,4 +6,4 @@ setup(
     author="Richard",
     author_email="richardkadey@gmail.com",
     packages=find_packages()
-)
+) 
