@@ -10,7 +10,7 @@ MODEL_FILE_NAME = "model.pkl"
 TARGET_COLUMN = "quality_label"
 CURRENT_YEAR = date.today().year
 
-MODEL_FILE_NAME = "wine_quality_classification.csv"
+FILE_NAME = "wine_quality_classification.csv"
 TRAIN_FILE_NAME: str = "train.csv"
 TEST_FILE_NAME: str = "test.csv"
 
