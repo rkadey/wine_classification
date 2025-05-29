@@ -1,7 +1,7 @@
 import os
 from datetime import date
 
-COLLECTION_NAME = "wine_data"
+
 PIPELINE_NAME: str = "wineproject"
 ARTIFACT_DIR: str = "artifact"
 

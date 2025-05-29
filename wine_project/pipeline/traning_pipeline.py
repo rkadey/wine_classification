@@ -1,6 +1,6 @@
-from entity.config_entity import DataIngestionConfig
-from components.data_ingestion import DataIngestion
-from constants import *
+from wine_project.entity.config_entity import DataIngestionConfig
+from wine_project.components.data_ingestion import DataIngestion
+from wine_project.constants import *
 
 config = DataIngestionConfig(
     data_ingestion_dir="artifacts/data_ingestion",
@@ -8,7 +8,6 @@ config = DataIngestionConfig(
     training_file_path="artifacts/data_ingestion/ingested/train.csv",
     testing_file_path="artifacts/data_ingestion/ingested/test.csv",
     train_test_split_ratio=0.8,
-    collection_name="wine_quality"
 )
 
 ingestion = DataIngestion(config)
