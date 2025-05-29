@@ -12,4 +12,3 @@ config = DataIngestionConfig(
 
 ingestion = DataIngestion(config)
 artifact = ingestion.ingest_data()
-print(artifact)
