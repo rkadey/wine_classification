@@ -11,7 +11,7 @@ from wine_project.logger import logging
 
 
 class DataIngestion:
-    def __init__(self, config: DataIngestionConfig):
+    def __init__(self, config: DataIngestionConfig=DataIngestionConfig()):
         """
         :param data_ingestion_config: configuration for data ingestion
         """
