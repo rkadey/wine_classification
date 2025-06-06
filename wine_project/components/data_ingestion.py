@@ -56,13 +56,13 @@ class DataIngestion:
 
             # 6. Return an artifact with paths
             artifact = DataIngestionArtifact(
-                feature_store_file_path=self.config.feature_store_file_path,
-                training_file_path=self.config.training_file_path,
-                testing_file_path=self.config.testing_file_path
+               feature_store_file_path=self.config.feature_store_file_path,
+                trained_file_path=self.config.training_file_path,
+                test_file_path=self.config.testing_file_path
             )
             logging.info(f"Data ingestion artifact created: {artifact}")
 
             return artifact
 
         except Exception as e:
-            raise Exception(e, sys)
+            raise Exception(e, sys) 
