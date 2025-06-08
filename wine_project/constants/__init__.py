@@ -13,6 +13,7 @@ CURRENT_YEAR = date.today().year
 FILE_NAME = "wine_quality_classification.csv"
 TRAIN_FILE_NAME: str = "train.csv"
 TEST_FILE_NAME: str = "test.csv"
+SCHEMA_FILE_PATH = os.path.join("config", "schema.yaml")
 
 """
 Data Ingestion related constant start with DATA_INGESTION VAR NAME
