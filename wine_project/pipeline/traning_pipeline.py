@@ -19,7 +19,7 @@ class TrainPipeline:
         This method of TrainPipeline class is responsible for starting data ingestion component
         """
         try:
-            logging.info("Entered the start_data_ingestion method of TrainPipeline class")
+            logging.info("======Entered the start_data_ingestion method of TrainPipeline class======")
             logging.info("Getting the data from notebooks")
             data_ingestion = DataIngestion(config=self.data_ingestion_config)
             data_ingestion_artifact = data_ingestion.ingest_data()
@@ -35,7 +35,7 @@ class TrainPipeline:
         """
         This method of TrainPipeline class is responsible for starting data validation component
         """
-        logging.info("Entered the start_data_validation method of TrainPipeline class")
+        logging.info("======Entered the start_data_validation method of TrainPipeline class======")
 
         try:
             data_validation = DataValidation(data_ingestion_artifact=data_ingestion_artifact,
