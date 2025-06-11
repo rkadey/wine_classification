@@ -14,6 +14,7 @@ FILE_NAME = "wine_quality_classification.csv"
 TRAIN_FILE_NAME: str = "train.csv"
 TEST_FILE_NAME: str = "test.csv"
 SCHEMA_FILE_PATH = os.path.join("config", "schema.yaml")
+PREPROCSSING_OBJECT_FILE_NAME = "preprocessing.pkl"
 
 """
 Data Ingestion related constant start with DATA_INGESTION VAR NAME
@@ -31,6 +32,14 @@ Data Validation realted contant start with DATA_VALIDATION VAR NAME
 DATA_VALIDATION_DIR_NAME: str = "data_validation"
 DATA_VALIDATION_DRIFT_REPORT_DIR: str = "drift_report"
 DATA_VALIDATION_DRIFT_REPORT_FILE_NAME: str = "report.yaml"
+
+
+"""
+Data Transformation ralated constant start with DATA_TRANSFORMATION VAR NAME
+"""
+DATA_TRANSFORMATION_DIR_NAME: str = "data_transformation"
+DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR: str = "transformed"
+DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR: str = "transformed_object"
 
 
 """
