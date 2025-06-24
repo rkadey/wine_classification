@@ -8,7 +8,6 @@ ARTIFACT_DIR: str = "artifact"
 MODEL_FILE_NAME = "model.pkl"
 
 TARGET_COLUMN = "quality_label"
-CURRENT_YEAR = date.today().year
 
 FILE_NAME = "wine_quality_classification.csv"
 TRAIN_FILE_NAME: str = "train.csv"
