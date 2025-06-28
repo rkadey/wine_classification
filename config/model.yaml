@@ -13,18 +13,17 @@ model_selection:
       solver: saga
     search_param_grid:
       penalty:
-      - l1
+      - none
       - l2
-      - elasticnet
       solver:
       - lbfgs
       - newton-cg
       - saga
 
       
-  module_1:
-    class: GaussianNB
-    module: sklearn.naive_bayes
-    params:
-    search_param_grid:
+  #module_1:
+   # class: GaussianNB
+    #module: sklearn.naive_bayes
+    #params:
+    #search_param_grid:
   
