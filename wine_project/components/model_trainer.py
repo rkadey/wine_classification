@@ -82,7 +82,7 @@ class ModelTrainer:
 
             usvisa_model = WineModel(preprocessing_object=preprocessing_obj,
                                        trained_model_object=best_model_detail.best_model)
-            logging.info("Created usvisa model object with preprocessor and model")
+            logging.info("Created wineproject model object with preprocessor and model")
             logging.info("Created best model file path.")
             save_object(self.model_trainer_config.trained_model_file_path, usvisa_model)
 
