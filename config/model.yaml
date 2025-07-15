@@ -20,10 +20,5 @@ model_selection:
       - newton-cg
       - saga
 
-      
-  #module_1:
-   # class: GaussianNB
-    #module: sklearn.naive_bayes
-    #params:
-    #search_param_grid:
+    
   
